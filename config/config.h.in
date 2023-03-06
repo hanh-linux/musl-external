@@ -1,0 +1,8 @@
+#define PACKAGE "musl-locales"
+#define LOCALEDIR "@prefix@/share/locale"
+
+#define HAVE_DECL_MAX 1
+#define HAVE_DECL_UINTMAX_MAX 0
+#define STDC_HEADERS 1
+
+

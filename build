@@ -1,0 +1,49 @@
+#!/bin/sh
+all_locales="cs_CZ en_GB fi_FI it_IT nb_NO \
+	pt_PT sv_SE de_CH en_US fr_CA \
+	nl_NL ru_RU de_DE es_ES fr_FR \
+	pt_BR sr_RS"
+installdir="install -dm755"
+installstuff="install -Dm644"
+
+i18n() {
+for l in $all_locales; do
+		if ! test -f out/musl-po/$$l.UTF-8; then 
+			$MSGFMT -o musl-po/$l.UTF-8 locales/musl-po/$l.po
+		fi
+done
+}
+
+
+lc() {
+for l in $all_locales; do 
+		if ! test -f out/po/$$l.UTF-8; then
+			$MSGFMT -o po/$l.mo locales/po/$l.po
+		fi
+done
+} 
+
+install_i18n() {
+$installdir $DESTDIR/$prefix/share/i18n/locales/musl/
+	for l in $all_locales; do 
+		$installstuff musl-po/$l.UTF-8 $DESTDIR/$prefix/share/i18n/locales/musl 
+	done
+
+}
+
+install_lc() {
+$installdir $DESTDIR/$prefix/share/locale/
+	for l in $all_locales; do
+		$installdir $DESTDIR/$prefix/share/locale/$l/LC_MESSAGGES
+		$installstuff po/$l.mo $DESTDIR/$prefix/share/locale/$l/LC_MEASSAGES/musl-locales.mo
+	done
+}
+
+install_dev() {
+for h in $(ls include/); do
+	$installstuff include/$h $DESTDIR/$prefix/include/$h 
+done
+}
+
+$1
+

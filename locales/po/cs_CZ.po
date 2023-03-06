@@ -1,0 +1,774 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"Last-Translator: Štěpán Šebestian <orangeorange0123@disroot.org>\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n>=2 && n<=4 ? 1 : 2);\n"
+"Language: cs_CZ\n"
+
+#: ../musl/musl-1.1.14/ldso/dynlink.c:1700
+#, c-format
+msgid "Error loading shared library %s: %m"
+msgstr "Chyba při načítání sdílené knihovny %s: %m"
+
+#: ../musl/musl-1.1.14/ldso/dynlink.c:1603
+#, c-format
+msgid "%s: Error getting %zu bytes thread-local storage: %m\n"
+msgstr "%s: Chyba získání %zu bajtů místního vlákna: %m\n"
+
+#: ../musl/musl-1.1.14/ldso/dynlink.c:1699
+#, c-format
+msgid "Library %s is not already loaded"
+msgstr "Knihovna %s ještě není načtena"
+
+#: ../musl/musl-1.1.14/ldso/dynlink.c:1503
+#, c-format
+msgid "%s: %s: Not a valid dynamic program\n"
+msgstr "%s: %s: Není platný dynamický program\n"
+
+#: ../musl/musl-1.1.14/ldso/dynlink.c:1087
+#, c-format
+msgid "Error loading shared library %s: %m (needed by %s)"
+msgstr "Chyba při načítání sdílené knihovny %s: %m (závisí na ní %s)"
+
+#: ../musl/musl-1.1.14/ldso/dynlink.c:1158
+#, c-format
+msgid "Error relocating %s: RELRO protection failed: %m"
+msgstr "Chyba při přemisťování %s: RELRO ochrana se nepovedla: %m"
+
+#: ../musl/musl-1.1.14/ldso/dynlink.c:875
+#, c-format
+msgid "Error allocating function descriptors for %s"
+msgstr "Chyba při alokaci deskriptorů funkcí pro %s"
+
+#: ../musl/musl-1.1.14/ldso/dynlink.c:448
+#, c-format
+msgid "Error relocating %s: unsupported relocation type %d"
+msgstr "Chyba při relokaci %s: nepodporovaný typ relokace %d"
+
+#: ../musl/musl-1.1.14/src/exit/assert.c:6
+#, c-format
+msgid "Assertion failed: %s (%s: %s: %d)\n"
+msgstr "Tvrzení selhalo: %s(%s: %s: %d)\n"
+
+#: ../musl/musl-1.1.14/ldso/dynlink.c:340
+#, c-format
+msgid "Error relocating %s: %s: symbol not found"
+msgstr "Chyba při relokaci %s: %s: symbol nenalezen"
+
+#: ../musl/musl-1.1.14/ldso/dynlink.c:426
+#, c-format
+msgid "Error relocating %s: cannot allocate TLSDESC for %s"
+msgstr "Chyba při relokaci %s: nelze alokovat TLSDESC pro %s"
+
+#: ../musl/musl-1.1.14/src/ldso/dlerror.c:14
+msgid "Dynamic linker failed to allocate memory for error message"
+msgstr "Dynamický linker selhal při alokaci paměti pro chybovou zprávu"
+
+#: ../musl/musl-1.1.14/src/ldso/dlerror.c:60
+#: ../musl/musl-1.1.14/ldso/dynlink.c:1742
+#, c-format
+msgid "Invalid library handle %p"
+msgstr "Neplatný popisovač knihovny %p"
+
+#: ../musl/musl-1.1.14/src/ldso/dlopen.c:9
+msgid "Dynamic loading not supported"
+msgstr "Dynamické načítání není podporované"
+
+#: ../musl/musl-1.1.14/src/ldso/dlinfo.c:14
+#, c-format
+msgid "Unsupported request %d"
+msgstr "Nepodporovaná žádost %d"
+
+#: ../musl/musl-1.1.14/src/ldso/__dlsym.c:9
+#: ../musl/musl-1.1.14/ldso/dynlink.c:1824
+#, c-format
+msgid "Symbol not found: %s"
+msgstr "Symbol nenalezen: %s"
+
+#: ../musl/musl-1.1.14/src/malloc/malloc.c:143
+#, c-format
+msgid "missing from binmap!\n"
+msgstr "chybí z binmapy!\n"
+
+#: ../musl/musl-1.1.14/src/malloc/malloc.c:145
+#, c-format
+msgid "binmap wrongly contains %d!\n"
+msgstr "binmapa chybně obsahuje %d!\n"
+
+#: ../musl/musl-1.1.14/src/misc/fmtmsg.c:30
+msgid "label"
+msgstr "označení"
+
+#: ../musl/musl-1.1.14/src/misc/fmtmsg.c:30
+msgid "severity"
+msgstr "vážnost"
+
+#: ../musl/musl-1.1.14/src/misc/fmtmsg.c:30
+msgid "text"
+msgstr "text"
+
+#: ../musl/musl-1.1.14/src/misc/fmtmsg.c:30
+msgid "action"
+msgstr "akce"
+
+#: ../musl/musl-1.1.14/src/misc/fmtmsg.c:30
+msgid "tag"
+msgstr "štítek"
+
+#: ../musl/musl-1.1.14/src/misc/fmtmsg.c:36
+msgid "HALT: "
+msgstr "STOP: "
+
+#: ../musl/musl-1.1.14/src/misc/fmtmsg.c:37
+msgid "ERROR: "
+msgstr "CHYBA: "
+
+#: ../musl/musl-1.1.14/src/misc/fmtmsg.c:38
+msgid "WARNING: "
+msgstr "VAROVÁNÍ: "
+
+#: ../musl/musl-1.1.14/src/misc/fmtmsg.c:39
+msgid "INFO: "
+msgstr "INFO: "
+
+#: ../musl/musl-1.1.14/src/misc/getopt_long.c:84
+msgid ": option does not take an argument: "
+msgstr ": volba nebere argument: "
+
+#: ../musl/musl-1.1.14/src/misc/getopt_long.c:95
+#: ../musl/musl-1.1.14/src/misc/getopt.c:91
+msgid ": option requires an argument: "
+msgstr ": volba vyžaduje argument: "
+
+#: ../musl/musl-1.1.14/src/misc/getopt_long.c:112
+msgid ": option is ambiguous: "
+msgstr ": možnost je dvojznačná: "
+
+#: ../musl/musl-1.1.14/src/misc/getopt_long.c:113
+#: ../musl/musl-1.1.14/src/misc/getopt.c:83
+msgid ": unrecognized option: "
+msgstr ": nerozeznaná volba: "
+
+#: ../musl/musl-1.1.14/src/regex/regerror.c:13
+msgid "No error"
+msgstr "Žádná chyba"
+
+#: ../musl/musl-1.1.14/src/string/strsignal.c:57
+msgid "Unknown signal"
+msgstr "Neznámý signál"
+
+#: ../musl/musl-1.1.14/src/network/hstrerror.c:6
+msgid "Host not found"
+msgstr "Host nenalezen"
+
+#: ../musl/musl-1.1.14/src/network/gai_strerror.c:5
+msgid "Invalid flags"
+msgstr "Neplatné vlajky"
+
+#: ../musl/musl-1.1.14/src/time/strftime.c:89
+#, c-format
+msgid "%2d"
+msgstr "%2d"
+
+#: ../musl/musl-1.1.14/src/time/strftime.c:92
+msgid "%Y-%m-%d"
+msgstr "%d-%m-%Y"
+
+#: ../musl/musl-1.1.14/src/time/strftime.c:141
+msgid "\t"
+msgstr "\t"
+
+#: ../musl/musl-1.1.14/src/time/strftime.c:174
+#, c-format
+msgid "+%lld"
+msgstr "+%lld"
+
+#: ../musl/musl-1.1.14/src/time/strftime.c:184
+#, c-format
+msgid "%+.2d%.2d"
+msgstr "%+.2d%.2d"
+
+#: ../musl/musl-1.1.14/src/time/strftime.c:202
+#, c-format
+msgid "%0*lld"
+msgstr "%0*lld"
+
+msgid "Illegal byte sequence"
+msgstr "Ilegální sekvence bajtů"
+
+msgid "Domain error"
+msgstr "Doménová chyba"
+
+msgid "Result not representable"
+msgstr "Výsledek není reprezentovatelný"
+
+msgid "Not a tty"
+msgstr "Není tty"
+
+msgid "Permission denied"
+msgstr "Oprávnění zamítnuto"
+
+msgid "Operation not permitted"
+msgstr "Operace není povolená"
+
+msgid "No such file or directory"
+msgstr "Složka nebo soubor neexistuje"
+
+msgid "No such process"
+msgstr "Proces neexistuje"
+
+msgid "File exists"
+msgstr "Soubor již existuje"
+
+msgid "Value too large for data type"
+msgstr "Hodnota je příliš velká pro datový typ"
+
+msgid "No space left on device"
+msgstr "Žádné volné místo na zařízení"
+
+msgid "Resource busy"
+msgstr "Zdroj zaneprázdněn"
+
+msgid "Interrupted system call"
+msgstr "Přerušené systémové volání"
+
+msgid "Resource temporarily unavailable"
+msgstr "Zdroj dočasně nedostupný"
+
+msgid "Invalid seek"
+msgstr "Neplatné hledání"
+
+msgid "Cross-device link"
+msgstr "Propojení mezi zařízeními"
+
+msgid "Read-only file system"
+msgstr "Souborový systém pouze pro čtení"
+
+msgid "Directory not empty"
+msgstr "Složka není prázdná"
+
+msgid "Connection reset by peer"
+msgstr "Spojení resetováno druhou stranou"
+
+msgid "Operation timed out"
+msgstr "Operaci vypršel čas"
+
+msgid "Connection refused"
+msgstr "Spojení odmítnuto"
+
+msgid "Host is down"
+msgstr "Host je offline"
+
+msgid "Host is unreachable"
+msgstr "Host je nedosažitelný"
+
+msgid "Address in use"
+msgstr "Adresa se již používá"
+
+msgid "Broken pipe"
+msgstr "Rozbitá cesta"
+
+msgid "I/O error"
+msgstr "Chyba vstupu/výstupu"
+
+msgid "No such device or address"
+msgstr "Takové zařízení nebo adresa neexistuje"
+
+msgid "Block device required"
+msgstr "Vyžaadováno blokové zařízení"
+
+msgid "No such device"
+msgstr "Zařízení neexistuje"
+
+msgid "Not a directory"
+msgstr "Není složka"
+
+msgid "Is a directory"
+msgstr "Je složka"
+
+msgid "Text file busy"
+msgstr "Textový soubor zaneprázdněn"
+
+msgid "Exec format error"
+msgstr "Chyba exec formátu"
+
+msgid "Invalid argument"
+msgstr "Neplatný argument"
+
+msgid "Argument list too long"
+msgstr "Seznam argumentů je příliš dlouhý"
+
+msgid "Symbolic link loop"
+msgstr "Smyčka symbolických odkazů"
+
+msgid "Filename too long"
+msgstr "Název souboru je příliš dlouhý"
+
+msgid "Too many open files in system"
+msgstr "Příliš otevřených souborů v systému"
+
+msgid "No file descriptors available"
+msgstr "Žádné popisky souborů nejsou dostupné"
+
+msgid "Bad file descriptor"
+msgstr "Špatný popisek souboru"
+
+msgid "No child process"
+msgstr "Žádný podřazený proces"
+
+msgid "Bad address"
+msgstr "Špatná adresa"
+
+msgid "File too large"
+msgstr "Soubor je příliš velký"
+
+msgid "Too many links"
+msgstr "Příliš mnoho odkazů"
+
+msgid "No locks available"
+msgstr "Žádné zámky nejsou dostupné"
+
+msgid "Resource deadlock would occur"
+msgstr "Došlo by k zablokování zdrojů"
+
+msgid "State not recoverable"
+msgstr "Stav není obnovitelný"
+
+msgid "Previous owner died"
+msgstr "Předchozí majitel zemřel"
+
+msgid "Operation canceled"
+msgstr "Operace zrušena"
+
+msgid "Function not implemented"
+msgstr "Funkce není implementována"
+
+msgid "No message of desired type"
+msgstr "Žádná zpráva žádaného typu"
+
+msgid "Identifier removed"
+msgstr "Identifikátor odstraněn"
+
+msgid "Device not a stream"
+msgstr "Zařízení není stream"
+
+msgid "No data available"
+msgstr "Žádná data nejsou dostupná"
+
+msgid "Device timeout"
+msgstr "Zažízení vypršel čas"
+
+msgid "Out of streams resources"
+msgstr "Zdroje mimo streamy"
+
+msgid "Link has been severed"
+msgstr "Spojení bylo poškozeno"
+
+msgid "Protocol error"
+msgstr "Chyba protokolu"
+
+msgid "Bad message"
+msgstr "Špatná zpráva"
+
+msgid "File descriptor in bad state"
+msgstr "Popisek souboru ve špatném stavu"
+
+msgid "Not a socket"
+msgstr "Není socket"
+
+msgid "Destination address required"
+msgstr "Adresa cíle vyžadována"
+
+msgid "Message too large"
+msgstr "Zpráva je příliš dlouhá"
+
+msgid "Protocol wrong type for socket"
+msgstr "Pro socket je protokol špatného typu"
+
+msgid "Protocol not available"
+msgstr "Protokol není dostupný"
+
+msgid "Protocol not supported"
+msgstr "Protokol není podporován"
+
+msgid "Socket type not supported"
+msgstr "Tento typ socketu není podporován"
+
+msgid "Not supported"
+msgstr "Není podporováno"
+
+msgid "Protocol family not supported"
+msgstr "Rodina protokolů není podporována"
+
+msgid "Address family not supported by protocol"
+msgstr "Rodina adres není podporována"
+
+msgid "Address not available"
+msgstr "Adresa není dostupná"
+
+msgid "Network is down"
+msgstr "Síť je offline"
+
+msgid "Network unreachable"
+msgstr "Síť je nedosažitelná"
+
+msgid "Connection reset by network"
+msgstr "Spojení resetováno sítí"
+
+msgid "Connection aborted"
+msgstr "Spojení zrušeno"
+
+msgid "No buffer space available"
+msgstr "Žádné místo na bufferu"
+
+msgid "Socket is connected"
+msgstr "Socket je připojen"
+
+msgid "Socket not connected"
+msgstr "Socket není připojen"
+
+msgid "Cannot send after socket shutdown"
+msgstr "Po deaktivaci socketu nelze odeslat"
+
+msgid "Operation already in progress"
+msgstr "Operace již probíhá"
+
+msgid "Operation in progress"
+msgstr "Operace probíhá"
+
+msgid "Stale file handle"
+msgstr "Zastaralý popisovač souboru"
+
+msgid "Remote I/O error"
+msgstr "Chyba vzdáleného vstupu/výstupu"
+
+msgid "Quota exceeded"
+msgstr "Kvóta přesaženo"
+
+msgid "No medium found"
+msgstr "Žádné médium nenalezeno"
+
+msgid "Wrong medium type"
+msgstr "Špatný typ média"
+
+msgid "No error information"
+msgstr "Žádná chybová informace"
+
+msgid "Sun"
+msgstr "Ne"
+
+msgid "Mon"
+msgstr "Po"
+
+msgid "Tue"
+msgstr "Út"
+
+msgid "Wed"
+msgstr "St"
+
+msgid "Thu"
+msgstr "Čt"
+
+msgid "Fri"
+msgstr "Pá"
+
+msgid "Sat"
+msgstr "So"
+
+msgid "Sunday"
+msgstr "Neděle"
+
+msgid "Monday"
+msgstr "Pondělí"
+
+msgid "Tuesday"
+msgstr "Úterý"
+
+msgid "Wednesday"
+msgstr "Středa"
+
+msgid "Thursday"
+msgstr "Čtvrtek"
+
+msgid "Friday"
+msgstr "Pátek"
+
+msgid "Saturday"
+msgstr "Sobota"
+
+msgid "Jan"
+msgstr "Led"
+
+msgid "Feb"
+msgstr "Úno"
+
+msgid "Mar"
+msgstr "Bře"
+
+msgid "Apr"
+msgstr "Dub"
+
+msgid "May"
+msgstr "Kvě"
+
+msgid "Jun"
+msgstr "Čvn"
+
+msgid "Jul"
+msgstr "Čvc"
+
+msgid "Aug"
+msgstr "Srp"
+
+msgid "Sep"
+msgstr "Zář"
+
+msgid "Oct"
+msgstr "Říj"
+
+msgid "Nov"
+msgstr "Lis"
+
+msgid "Dec"
+msgstr "Pro"
+
+msgid "January"
+msgstr "Leden"
+
+msgid "February"
+msgstr "Únor"
+
+msgid "March"
+msgstr "Březen"
+
+msgid "April"
+msgstr "Duben"
+
+msgid "June"
+msgstr "Červen"
+
+msgid "July"
+msgstr "Červenec"
+
+msgid "August"
+msgstr "Srpen"
+
+msgid "September"
+msgstr "Září"
+
+msgid "October"
+msgstr "Říjen"
+
+msgid "November"
+msgstr "Listopad"
+
+msgid "December"
+msgstr "Prosinec"
+
+msgid "AM"
+msgstr "AM"
+
+msgid "PM"
+msgstr "PM"
+
+msgid "%a %b %e %T %Y"
+msgstr "%a %b %e %T %Y"
+
+#: ../musl/musl-1.1.14/src/time/strptime.c:54
+#: ../musl/musl-1.1.14/src/time/strftime.c:86
+msgid "%m/%d/%y"
+msgstr "%m/%d/%y"
+
+#: ../musl/musl-1.1.14/src/time/strptime.c:106
+#: ../musl/musl-1.1.14/src/time/strftime.c:130
+msgid "%H:%M"
+msgstr "%H:%M"
+
+#: ../musl/musl-1.1.14/src/time/strptime.c:115
+#: ../musl/musl-1.1.14/src/time/strftime.c:143
+msgid "%H:%M:%S"
+msgstr "%H:%M:%S"
+
+msgid "%I:%M:%S %p"
+msgstr "%I:%M:%S %p"
+
+msgid "0123456789"
+msgstr "0123456789"
+
+msgid "%a %b %e %T %Y %Z"
+msgstr "%a %b %e %T %Y %Z"
+
+msgid "^[yY]"
+msgstr "^[yY]"
+
+msgid "^[nN]"
+msgstr "^[nN]"
+
+msgid "yes"
+msgstr "ano"
+
+msgid "no"
+msgstr "ne"
+
+msgid "."
+msgstr "."
+
+msgid "Name does not resolve"
+msgstr "Jméno nelze vyřešit"
+
+msgid "Try again"
+msgstr "Zkuste to znovu"
+
+msgid "Non-recoverable error"
+msgstr "Neobnovitelná chyba"
+
+msgid "Unknown error"
+msgstr "Neznámá chyba"
+
+msgid "Unrecognized address family or invalid length"
+msgstr "Nerozeznaná rodina adres nebo neplatná délka"
+
+msgid "Unrecognized socket type"
+msgstr "Nerozeznaný typ socketu"
+
+msgid "Unrecognized service"
+msgstr "Nerozeznaná služba"
+
+msgid "System error"
+msgstr "Systémová chyba"
+
+msgid "Overflow"
+msgstr "Přetékání"
+
+msgid "No match"
+msgstr "Žádná shoda"
+
+msgid "Invalid regexp"
+msgstr "Špatný regulární výraz"
+
+msgid "Unknown collating element"
+msgstr "Neznámý srovnávácí prvek"
+
+msgid "Unknown character class name"
+msgstr "Neznámý název třídy znaků"
+
+msgid "Trailing backslash"
+msgstr "Zpětné lomítko navíc"
+
+msgid "Invalid back reference"
+msgstr "Neplatná zpětná reference"
+
+msgid "Missing ']'"
+msgstr "Chybějící ']'"
+
+msgid "Missing ')'"
+msgstr "Chybějící ')'"
+
+msgid "Missing '}'"
+msgstr "Chybějící '}'"
+
+msgid "Invalid contents of {}"
+msgstr "Neplatný obsah {}"
+
+msgid "Invalid character range"
+msgstr "Neplatný rozsah znaků"
+
+msgid "Repetition not preceded by valid expression"
+msgstr "Opakování nepředchází platný výraz"
+
+msgid "Hangup"
+msgstr "Zmrazení"
+
+msgid "Interrupt"
+msgstr "Přerušení"
+
+msgid "Quit"
+msgstr "Ukončit"
+
+msgid "Illegal instruction"
+msgstr "Ilegální instrukce"
+
+msgid "Trace/breakpoint trap"
+msgstr "Trasa/breakpointu uvězněny"
+
+msgid "Aborted"
+msgstr "Zrušeno"
+
+msgid "Bus error"
+msgstr "Chyba busu"
+
+msgid "Arithmetic exception"
+msgstr "Aritmetická chyba"
+
+msgid "Killed"
+msgstr "Zabito"
+
+msgid "User defined signal 1"
+msgstr "Signál definovaný uživatelem 1"
+
+msgid "Segmentation fault"
+msgstr "Segmentační chyba"
+
+msgid "User defined signal 2"
+msgstr "Signál definovaný uživatelem 2"
+
+msgid "Alarm clock"
+msgstr "Budík"
+
+msgid "Terminated"
+msgstr "Ukončeno"
+
+msgid "Stack fault"
+msgstr "Chyba stacku"
+
+msgid "Child process status"
+msgstr "Stav podřazeného procesu"
+
+msgid "Continued"
+msgstr "Pokračuje se"
+
+msgid "Stopped (signal)"
+msgstr "Zastaveno (signál)"
+
+msgid "Stopped"
+msgstr "Zastaveno"
+
+msgid "Stopped (tty input)"
+msgstr "Zastaveno (vstup na tty)"
+
+msgid "Stopped (tty output)"
+msgstr "Zastaveno (výstup na tty)"
+
+msgid "Urgent I/O condition"
+msgstr "Urgentní stav vstupu/výstupu"
+
+msgid "CPU time limit exceeded"
+msgstr "Překročen limit času CPU"
+
+msgid "File size limit exceeded"
+msgstr "Překročen limit velikosti souboru"
+
+msgid "Virtual timer expired"
+msgstr "Virtuální časovač vypršel"
+
+msgid "Profiling timer expired"
+msgstr "Profilovací časovač vypršel"
+
+msgid "Window changed"
+msgstr "Okno změněno"
+
+msgid "I/O possible"
+msgstr "Vstup/výstup možný"
+
+msgid "Power failure"
+msgstr "Chyba napájení"
+
+msgid "Bad system call"
+msgstr "Špatné systémové volání"

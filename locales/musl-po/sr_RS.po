@@ -1,0 +1,773 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2021-05-31 19:52+0200\n"
+"Last-Translator: Страхиња Радић <contact@strahinja.org>\n"
+"Language-Team: Serbian <sr@li.org>\n"
+"Language: sr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+
+#: ../musl/musl-1.1.14/ldso/dynlink.c:1700
+#, c-format
+msgid "Error loading shared library %s: %m"
+msgstr "Грешка приликом учитавања дељене библиотеке %s: %m"
+
+#: ../musl/musl-1.1.14/ldso/dynlink.c:1603
+#, c-format
+msgid "%s: Error getting %zu bytes thread-local storage: %m\n"
+msgstr "%s: Грешка приликом обезбеђивања %zu бајтова складишта локалног за нит: %m\n"
+
+#: ../musl/musl-1.1.14/ldso/dynlink.c:1699
+#, c-format
+msgid "Library %s is not already loaded"
+msgstr "Библиотека %s није већ учитана"
+
+#: ../musl/musl-1.1.14/ldso/dynlink.c:1503
+#, c-format
+msgid "%s: %s: Not a valid dynamic program\n"
+msgstr "%s: %s: Није исправан динамички програм\n"
+
+#: ../musl/musl-1.1.14/ldso/dynlink.c:1087
+#, c-format
+msgid "Error loading shared library %s: %m (needed by %s)"
+msgstr "Грешка приликом учитавања дељене библиотеке %s: %m (тражи је %s)"
+
+#: ../musl/musl-1.1.14/ldso/dynlink.c:1158
+#, c-format
+msgid "Error relocating %s: RELRO protection failed: %m"
+msgstr "Грешка приликом релоцирања %s: RELRO заштита није успела: %m"
+
+#: ../musl/musl-1.1.14/ldso/dynlink.c:875
+#, c-format
+msgid "Error allocating function descriptors for %s"
+msgstr "Грешка приликом алоцирања функцијских дескриптора за %s"
+
+#: ../musl/musl-1.1.14/ldso/dynlink.c:448
+#, c-format
+msgid "Error relocating %s: unsupported relocation type %d"
+msgstr "Грешка приликом релоцирања %s: неподржана врста релокације %d"
+
+#: ../musl/musl-1.1.14/src/exit/assert.c:6
+#, c-format
+msgid "Assertion failed: %s (%s: %s: %d)\n"
+msgstr "Тврдња неуспешна: %s (%s: %s: %d)\n"
+
+#: ../musl/musl-1.1.14/ldso/dynlink.c:340
+#, c-format
+msgid "Error relocating %s: %s: symbol not found"
+msgstr "Грешка приликом релоцирања %s: %s: симбол није пронађен"
+
+#: ../musl/musl-1.1.14/ldso/dynlink.c:426
+#, c-format
+msgid "Error relocating %s: cannot allocate TLSDESC for %s"
+msgstr "Грешка приликом релоцирања %s: не може се алоцирати TLSDESC за %s"
+
+#: ../musl/musl-1.1.14/src/ldso/dlerror.c:14
+msgid "Dynamic linker failed to allocate memory for error message"
+msgstr "Динамички линкер није успео да алоцира меморију за поруку о грешци"
+
+#: ../musl/musl-1.1.14/src/ldso/dlerror.c:60
+#: ../musl/musl-1.1.14/ldso/dynlink.c:1742
+#, c-format
+msgid "Invalid library handle %p"
+msgstr "Неисправна ручка библиотеке %p"
+
+#: ../musl/musl-1.1.14/src/ldso/dlopen.c:9
+msgid "Dynamic loading not supported"
+msgstr "Динамичко учитавање није подржано"
+
+#: ../musl/musl-1.1.14/src/ldso/dlinfo.c:14
+#, c-format
+msgid "Unsupported request %d"
+msgstr "Неподржани захтев %d"
+
+#: ../musl/musl-1.1.14/src/ldso/__dlsym.c:9
+#: ../musl/musl-1.1.14/ldso/dynlink.c:1824
+#, c-format
+msgid "Symbol not found: %s"
+msgstr "Симбол није пронађен: %s"
+
+#: ../musl/musl-1.1.14/src/malloc/malloc.c:143
+#, c-format
+msgid "missing from binmap!\n"
+msgstr "недостаје у бинмапи!\n"
+
+#: ../musl/musl-1.1.14/src/malloc/malloc.c:145
+#, c-format
+msgid "binmap wrongly contains %d!\n"
+msgstr "бинмапа погрешно садржи %d!\n"
+
+#: ../musl/musl-1.1.14/src/misc/fmtmsg.c:30
+msgid "label"
+msgstr "натпис"
+
+#: ../musl/musl-1.1.14/src/misc/fmtmsg.c:30
+msgid "severity"
+msgstr "грубост"
+
+#: ../musl/musl-1.1.14/src/misc/fmtmsg.c:30
+msgid "text"
+msgstr "текст"
+
+#: ../musl/musl-1.1.14/src/misc/fmtmsg.c:30
+msgid "action"
+msgstr "акција"
+
+#: ../musl/musl-1.1.14/src/misc/fmtmsg.c:30
+msgid "tag"
+msgstr "ознака"
+
+#: ../musl/musl-1.1.14/src/misc/fmtmsg.c:36
+msgid "HALT: "
+msgstr "ЗАСТОЈ: "
+
+#: ../musl/musl-1.1.14/src/misc/fmtmsg.c:37
+msgid "ERROR: "
+msgstr "ГРЕШКА: "
+
+#: ../musl/musl-1.1.14/src/misc/fmtmsg.c:38
+msgid "WARNING: "
+msgstr "УПОЗОРЕЊЕ: "
+
+#: ../musl/musl-1.1.14/src/misc/fmtmsg.c:39
+msgid "INFO: "
+msgstr "ИНФО: "
+
+#: ../musl/musl-1.1.14/src/misc/getopt_long.c:84
+msgid ": option does not take an argument: "
+msgstr ": опција не узима аргумент: "
+
+#: ../musl/musl-1.1.14/src/misc/getopt_long.c:95
+#: ../musl/musl-1.1.14/src/misc/getopt.c:91
+msgid ": option requires an argument: "
+msgstr ": опција захтева аргумент: "
+
+#: ../musl/musl-1.1.14/src/misc/getopt_long.c:112
+msgid ": option is ambiguous: "
+msgstr ": опција је двосмислена: "
+
+#: ../musl/musl-1.1.14/src/misc/getopt_long.c:113
+#: ../musl/musl-1.1.14/src/misc/getopt.c:83
+msgid ": unrecognized option: "
+msgstr ": непозната опција: "
+
+#: ../musl/musl-1.1.14/src/regex/regerror.c:13
+msgid "No error"
+msgstr "Нема грешке"
+
+#: ../musl/musl-1.1.14/src/string/strsignal.c:57
+msgid "Unknown signal"
+msgstr "Непознат сигнал"
+
+#: ../musl/musl-1.1.14/src/network/hstrerror.c:6
+msgid "Host not found"
+msgstr "Хост није пронађен"
+
+#: ../musl/musl-1.1.14/src/network/gai_strerror.c:5
+msgid "Invalid flags"
+msgstr "Неисправне заставице"
+
+#: ../musl/musl-1.1.14/src/time/strftime.c:89
+#, c-format
+msgid "%2d"
+msgstr "%2d"
+
+#: ../musl/musl-1.1.14/src/time/strftime.c:92
+msgid "%Y-%m-%d"
+msgstr "%Y-%m-%d"
+
+#: ../musl/musl-1.1.14/src/time/strftime.c:141
+msgid "\t"
+msgstr "\t"
+
+#: ../musl/musl-1.1.14/src/time/strftime.c:174
+#, c-format
+msgid "+%lld"
+msgstr "+%lld"
+
+#: ../musl/musl-1.1.14/src/time/strftime.c:184
+#, c-format
+msgid "%+.2d%.2d"
+msgstr "%+.2d%.2d"
+
+#: ../musl/musl-1.1.14/src/time/strftime.c:202
+#, c-format
+msgid "%0*lld"
+msgstr "%0*lld"
+
+msgid "Illegal byte sequence"
+msgstr "Недозвољен низ бајтова"
+
+msgid "Domain error"
+msgstr "Грешка у домену"
+
+msgid "Result not representable"
+msgstr "Резултат се не може представити"
+
+msgid "Not a tty"
+msgstr "Није tty"
+
+msgid "Permission denied"
+msgstr "Овлашћење је одбијено"
+
+msgid "Operation not permitted"
+msgstr "Операција није дозвољена"
+
+msgid "No such file or directory"
+msgstr "Нема такве датотеке нити директоријума"
+
+msgid "No such process"
+msgstr "Нема таквог процеса"
+
+msgid "File exists"
+msgstr "Датотека постоји"
+
+msgid "Value too large for data type"
+msgstr "Вредност је превелика за тип података"
+
+msgid "No space left on device"
+msgstr "Нема више простора на уређају"
+
+msgid "Resource busy"
+msgstr "Ресурс је заузет"
+
+msgid "Interrupted system call"
+msgstr "Прекинут системски позив"
+
+msgid "Resource temporarily unavailable"
+msgstr "Ресурс је привремено недоступан"
+
+msgid "Invalid seek"
+msgstr "Неисправно тражење"
+
+msgid "Cross-device link"
+msgstr "Веза између два различита уређаја"
+
+msgid "Read-only file system"
+msgstr "Систем датотека само за читање"
+
+msgid "Directory not empty"
+msgstr "Директоријум није празан"
+
+msgid "Connection reset by peer"
+msgstr "Повезивање поново покренуто од стране суседа"
+
+msgid "Operation timed out"
+msgstr "Операција је одложена"
+
+msgid "Connection refused"
+msgstr "Повезивање је одбијено"
+
+msgid "Host is down"
+msgstr "Хост је оборен"
+
+msgid "Host is unreachable"
+msgstr "Хост је недоступан"
+
+msgid "Address in use"
+msgstr "Адреса се користи"
+
+msgid "Broken pipe"
+msgstr "Сломљена цев"
+
+msgid "I/O error"
+msgstr "У/И грешка"
+
+msgid "No such device or address"
+msgstr "Нема таквог уређаја нити адресе"
+
+msgid "Block device required"
+msgstr "Захтева се блок уређај"
+
+msgid "No such device"
+msgstr "Нема таквог уређаја"
+
+msgid "Not a directory"
+msgstr "Није директоријум"
+
+msgid "Is a directory"
+msgstr "То је директоријум"
+
+msgid "Text file busy"
+msgstr "Текстуална датотека је заузета"
+
+msgid "Exec format error"
+msgstr "Грешка у извршном формату"
+
+msgid "Invalid argument"
+msgstr "Неисправан аргумент"
+
+msgid "Argument list too long"
+msgstr "Листа аргумената је предугачка"
+
+msgid "Symbolic link loop"
+msgstr "Петља симболичких веза"
+
+msgid "Filename too long"
+msgstr "Назив датотеке је предугачак"
+
+msgid "Too many open files in system"
+msgstr "Превише отворених датотека у систему"
+
+msgid "No file descriptors available"
+msgstr "Нема доступних дескриптора датотека"
+
+msgid "Bad file descriptor"
+msgstr "Лош дескриптор датотеке"
+
+msgid "No child process"
+msgstr "Нема подређеног процеса"
+
+msgid "Bad address"
+msgstr "Лоша адреса"
+
+msgid "File too large"
+msgstr "Датотека је превелика"
+
+msgid "Too many links"
+msgstr "Превише веза"
+
+msgid "No locks available"
+msgstr "Нема доступних катанаца"
+
+msgid "Resource deadlock would occur"
+msgstr "Настало би заглављивање ресурса"
+
+msgid "State not recoverable"
+msgstr "Не може се опоравити из овог стања"
+
+msgid "Previous owner died"
+msgstr "Претходни власник је мртав"
+
+msgid "Operation canceled"
+msgstr "Операција је поништена"
+
+msgid "Function not implemented"
+msgstr "Функција није имплементирана"
+
+msgid "No message of desired type"
+msgstr "Нема порука жељеног типа"
+
+msgid "Identifier removed"
+msgstr "Идентификатор је уклоњен"
+
+msgid "Device not a stream"
+msgstr "Уређај није ток"
+
+msgid "No data available"
+msgstr "Нема доступних података"
+
+msgid "Device timeout"
+msgstr "Тајмаут уређаја"
+
+msgid "Out of streams resources"
+msgstr "Нема више ресурса за токове"
+
+msgid "Link has been severed"
+msgstr "Веза је прекинута"
+
+msgid "Protocol error"
+msgstr "Грешка у протоколу"
+
+msgid "Bad message"
+msgstr "Лоша порука"
+
+msgid "File descriptor in bad state"
+msgstr "Дескриптор датотеке је у лошем стању"
+
+msgid "Not a socket"
+msgstr "Није утичница"
+
+msgid "Destination address required"
+msgstr "Захтева се одредишна адреса"
+
+msgid "Message too large"
+msgstr "Порука је превелика"
+
+msgid "Protocol wrong type for socket"
+msgstr "Протокол је погрешног типа за утичницу"
+
+msgid "Protocol not available"
+msgstr "Протокол није доступан"
+
+msgid "Protocol not supported"
+msgstr "Протокол није подржан"
+
+msgid "Socket type not supported"
+msgstr "Тип утичнице није подржан"
+
+msgid "Not supported"
+msgstr "Није подржано"
+
+msgid "Protocol family not supported"
+msgstr "Фамилија протокола није подржана"
+
+msgid "Address family not supported by protocol"
+msgstr "Фамилија адреса није подржана протоколом"
+
+msgid "Address not available"
+msgstr "Адреса није доступна"
+
+msgid "Network is down"
+msgstr "Мрежа је оборена"
+
+msgid "Network unreachable"
+msgstr "Мрежа је недоступна"
+
+msgid "Connection reset by network"
+msgstr "Повезивање је поново покренуто од стране мреже"
+
+msgid "Connection aborted"
+msgstr "Повезивање је прекинуто"
+
+msgid "No buffer space available"
+msgstr "Нема доступног места за бафер"
+
+msgid "Socket is connected"
+msgstr "Утичница је повезана"
+
+msgid "Socket not connected"
+msgstr "Утичница није повезана"
+
+msgid "Cannot send after socket shutdown"
+msgstr "Не може се слати после гашења утичнице"
+
+msgid "Operation already in progress"
+msgstr "Операција је већ у току"
+
+msgid "Operation in progress"
+msgstr "Операција је у току"
+
+msgid "Stale file handle"
+msgstr "Истекла ручка датотеке"
+
+msgid "Remote I/O error"
+msgstr "Грешка у удаљеном У/И"
+
+msgid "Quota exceeded"
+msgstr "Квота је премашена"
+
+msgid "No medium found"
+msgstr "Ниједан медијум није пронађен"
+
+msgid "Wrong medium type"
+msgstr "Погрешан тип медијума"
+
+msgid "No error information"
+msgstr "Нема поруке о грешци"
+
+msgid "Sun"
+msgstr "нед"
+
+msgid "Mon"
+msgstr "пон"
+
+msgid "Tue"
+msgstr "уто"
+
+msgid "Wed"
+msgstr "сре"
+
+msgid "Thu"
+msgstr "чет"
+
+msgid "Fri"
+msgstr "пет"
+
+msgid "Sat"
+msgstr "суб"
+
+msgid "Sunday"
+msgstr "недеља"
+
+msgid "Monday"
+msgstr "понедељак"
+
+msgid "Tuesday"
+msgstr "уторак"
+
+msgid "Wednesday"
+msgstr "среда"
+
+msgid "Thursday"
+msgstr "четвртак"
+
+msgid "Friday"
+msgstr "петак"
+
+msgid "Saturday"
+msgstr "субота"
+
+msgid "Jan"
+msgstr "јан"
+
+msgid "Feb"
+msgstr "феб"
+
+msgid "Mar"
+msgstr "мар"
+
+msgid "Apr"
+msgstr "апр"
+
+msgid "May"
+msgstr "мај"
+
+msgid "Jun"
+msgstr "јун"
+
+msgid "Jul"
+msgstr "јул"
+
+msgid "Aug"
+msgstr "авг"
+
+msgid "Sep"
+msgstr "сеп"
+
+msgid "Oct"
+msgstr "окт"
+
+msgid "Nov"
+msgstr "нов"
+
+msgid "Dec"
+msgstr "дец"
+
+msgid "January"
+msgstr "јануар"
+
+msgid "February"
+msgstr "фебруар"
+
+msgid "March"
+msgstr "март"
+
+msgid "April"
+msgstr "април"
+
+msgid "June"
+msgstr "јун"
+
+msgid "July"
+msgstr "јул"
+
+msgid "August"
+msgstr "август"
+
+msgid "September"
+msgstr "септембар"
+
+msgid "October"
+msgstr "октобар"
+
+msgid "November"
+msgstr "новембар"
+
+msgid "December"
+msgstr "децембар"
+
+msgid "AM"
+msgstr "AM"
+
+msgid "PM"
+msgstr "PM"
+
+msgid "%a %b %e %T %Y"
+msgstr "%a %b %e %T %Y"
+
+#: ../musl/musl-1.1.14/src/time/strptime.c:54
+#: ../musl/musl-1.1.14/src/time/strftime.c:86
+msgid "%m/%d/%y"
+msgstr "%d.%m.%y."
+
+#: ../musl/musl-1.1.14/src/time/strptime.c:106
+#: ../musl/musl-1.1.14/src/time/strftime.c:130
+msgid "%H:%M"
+msgstr "%H:%M"
+
+#: ../musl/musl-1.1.14/src/time/strptime.c:115
+#: ../musl/musl-1.1.14/src/time/strftime.c:143
+msgid "%H:%M:%S"
+msgstr "%H:%M:%S"
+
+msgid "%I:%M:%S %p"
+msgstr "%I:%M:%S %p"
+
+msgid "0123456789"
+msgstr "0123456789"
+
+msgid "%a %b %e %T %Y %Z"
+msgstr "%a %b %e %T %Y %Z"
+
+msgid "^[yY]"
+msgstr "^[дД]"
+
+msgid "^[nN]"
+msgstr "^[нН]"
+
+msgid "yes"
+msgstr "да"
+
+msgid "no"
+msgstr "не"
+
+msgid "."
+msgstr "."
+
+msgid "Name does not resolve"
+msgstr "Име се не може разрешити"
+
+msgid "Try again"
+msgstr "Покушајте поново"
+
+msgid "Non-recoverable error"
+msgstr "Грешка од које се не може опоравити"
+
+msgid "Unknown error"
+msgstr "Непозната грешка"
+
+msgid "Unrecognized address family or invalid length"
+msgstr "Непозната фамилија адреса или неисправна дужина"
+
+msgid "Unrecognized socket type"
+msgstr "Непознат тип утичнице"
+
+msgid "Unrecognized service"
+msgstr "Непознат сервис"
+
+msgid "System error"
+msgstr "Системска грешка"
+
+msgid "Overflow"
+msgstr "Преливање"
+
+msgid "No match"
+msgstr "Нема подударања"
+
+msgid "Invalid regexp"
+msgstr "Неисправни регизраз"
+
+msgid "Unknown collating element"
+msgstr "Непознат елемент ређања"
+
+msgid "Unknown character class name"
+msgstr "Непознат назив класе знакова"
+
+msgid "Trailing backslash"
+msgstr "Обрнута коса црта на крају"
+
+msgid "Invalid back reference"
+msgstr "Неисправна повратна референца"
+
+msgid "Missing ']'"
+msgstr "Недостаје „]“"
+
+msgid "Missing ')'"
+msgstr "Недостаје „)“"
+
+msgid "Missing '}'"
+msgstr "Недостаје „}“"
+
+msgid "Invalid contents of {}"
+msgstr "Неисправан садржај {}"
+
+msgid "Invalid character range"
+msgstr "Неисправан опсег знакова"
+
+msgid "Repetition not preceded by valid expression"
+msgstr "Понављању не претходи исправан израз"
+
+msgid "Hangup"
+msgstr "Прекинута веза"
+
+msgid "Interrupt"
+msgstr "Прекид"
+
+msgid "Quit"
+msgstr "Излаз"
+
+msgid "Illegal instruction"
+msgstr "Недозвољена инструкција"
+
+msgid "Trace/breakpoint trap"
+msgstr "Клопка праћења/тачке прекида"
+
+msgid "Aborted"
+msgstr "Прекинуто"
+
+msgid "Bus error"
+msgstr "Грешка bus-а"
+
+msgid "Arithmetic exception"
+msgstr "Аритметички изузетак"
+
+msgid "Killed"
+msgstr "Убијен"
+
+msgid "User defined signal 1"
+msgstr "Кориснички дефинисан сигнал 1"
+
+msgid "Segmentation fault"
+msgstr "Грешка сегментације"
+
+msgid "User defined signal 2"
+msgstr "Кориснички дефинисан сигнал 2"
+
+msgid "Alarm clock"
+msgstr "Аларм"
+
+msgid "Terminated"
+msgstr "Завршен"
+
+msgid "Stack fault"
+msgstr "Грешка стека"
+
+msgid "Child process status"
+msgstr "Статус подређеног процеса"
+
+msgid "Continued"
+msgstr "Настављен"
+
+msgid "Stopped (signal)"
+msgstr "Заустављен (сигнал)"
+
+msgid "Stopped"
+msgstr "Заустављен"
+
+msgid "Stopped (tty input)"
+msgstr "Заустављен (улаз са tty-ја)"
+
+msgid "Stopped (tty output)"
+msgstr "Заустављен (излаз на tty)"
+
+msgid "Urgent I/O condition"
+msgstr "Хитно У/И стање"
+
+msgid "CPU time limit exceeded"
+msgstr "Временско ограничење ЦПЈ је премашено"
+
+msgid "File size limit exceeded"
+msgstr "Ограничење величине датотеке је премашено"
+
+msgid "Virtual timer expired"
+msgstr "Виртуелни тајмер је истекао"
+
+msgid "Profiling timer expired"
+msgstr "Тајмер профилисања је истекао"
+
+msgid "Window changed"
+msgstr "Прозор је промењен"
+
+msgid "I/O possible"
+msgstr "У/И је могућ"
+
+msgid "Power failure"
+msgstr "Грешка напона"
+
+msgid "Bad system call"
+msgstr "Лош системски позив"

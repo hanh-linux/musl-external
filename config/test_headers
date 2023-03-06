@@ -1,0 +1,38 @@
+#!/bin/sh
+
+cd tmp/
+
+config_h="config.h"
+
+getheader() {
+name=$(basename $1)
+cat << EOF >> $name.c
+#include <$1>
+
+int main() {return 0;}
+EOF
+ 
+$CC -E $name.c > /dev/null 
+
+if test $? = "0"; then 
+	echo "#define $2 1" >> $config_h
+fi
+}
+
+getheader assert.h HAVE_ASSERT_H
+getheader dirent.h HAVE_DIRENT_H
+getheader dlfcn.h  HAVE_DLFCN_H
+getheader errno.h  HAVE_ERRNO_H
+getheader fcntl.h  HAVE_FCNTL_H
+getheader inttypes.h HAVE_INTTYPES_H
+getheader stdint.h HAVE_STDINT_H
+getheader stdio.h  HAVE_STDIO_H
+getheader stdlib.h HAVE_STDLIB_H
+getheader strings.h HAVE_STRINGS_H
+getheader string.h HAVE_STRING_H
+getheader sys/param.h HAVE_SYS_PARAM_H
+getheader sys/stat.h HAVE_SYS_STAT_H
+getheader sys/types.h HAVE_SYS_TYPES_H
+getheader unistd.h HAVE_UNISTD_H
+
+
