@@ -1,8 +1,9 @@
 #!/bin/sh
 
+cwd="$(pwd)"
 cd tmp/
 
-config_h="config.h"
+config_h="$cwd/config/config.h"
 
 getheader() {
 name=$(basename $1)
