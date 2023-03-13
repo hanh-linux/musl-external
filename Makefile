@@ -65,17 +65,41 @@ out/stacktraverse.o: execinfo/stacktraverse.c
 out/execinfo.o: execinfo/execinfo.c
 	$(CC) $(CPPFLAGS) $(CFLAGS) -fPIC -std=gnu99 -fno-strict-aliasing -fstack-protector -o out/execinfo.o -c execinfo/execinfo.c
 
+out/argp-test.o: config.h 
+	gcc -DHAVE_CONFIG_H  $(CPPFLAGS) $(CFLAGS) -c -o out/argp-test.o argp/argp-test.c
+
+out/argp-ba.o: config.h 
+	gcc -DHAVE_CONFIG_H $(CPPFLAGS) $(CFLAGS) -c -o out/argp-ba.o argp/argp-ba.c
+
+out/argp-eexst.o: config.h 
+	gcc -DHAVE_CONFIG_H $(CPPFLAGS) $(CFLAGS) -c -o out/argp-eexst.o argp/argp-eexst.c
+
+out/argp-fmtstream.o: config.h 
+	gcc -DHAVE_CONFIG_H $(CPPFLAGS) $(CFLAGS) -c -o out/argp-fmtstream.o argp/argp-fmtstream.c
+
+out/argp-help.o: config.h 
+	gcc -DHAVE_CONFIG_H $(CPPFLAGS) $(CFLAGS) -c -o out/argp-help.o argp/argp-help.c
+
+out/argp-parse.o: config.h 
+	gcc -DHAVE_CONFIG_H $(CPPFLAGS) $(CFLAGS) -c -o out/argp-parse.o argp/argp-parse.c
+
+out/argp-pv.o: config.h 
+	gcc -DHAVE_CONFIG_H $(CPPFLAGS) $(CFLAGS) -c -o out/argp-pv.o argp/argp-pv.c
+
+out/argp-pvh.o: config.h 
+	gcc -DHAVE_CONFIG_H $(CPPFLAGS) $(CFLAGS) -c -o out/argp-pvh.o argp/argp-pvh.c
+
 bin/gencat: gencat.c 
 	$(CC) $(CFLAGS) $(CPPFLAGS) $(LDFLAGS) -lc -o bin/gencat gencat.c
 
 bin/genent: genent.c
 	$(CC) $(CFLAGS) $(CPPFLAGS) $(LDFLAGS) -lc -o bin/genent genent.c
 
-lib/libc_external.so.0.0.0: out/fts.o out/obstack.o out/obstack_printf.o out/stacktraverse.o out/execinfo.o
+lib/libc_external.so.0.0.0: out/fts.o out/obstack.o out/obstack_printf.o out/stacktraverse.o out/execinfo.o 
 	$(LD) $(LDFLAGS) -lc -shared -o lib/libc_external.so.0.0.0 out/fts.o out/obstack.o out/obstack_printf.o out/stacktraverse.o out/execinfo.o
 
-lib/libc_external.a: out/fts.o out/obstack.o out/obstack_printf.o out/stacktraverse.o out/execinfo.o
-	$(AR) -rc lib/libc_external.a out/fts.o out/obstack.o out/obstack_printf.o out/stacktraverse.o out/execinfo.o
+lib/libc_external.a: out/fts.o out/obstack.o out/obstack_printf.o out/stacktraverse.o out/execinfo.o out/argp-test.o out/argp-ba.o out/argp-eexst.o out/argp-fmtstream.o out/argp-help.o out/argp-parse.o out/argp-pv.o out/argp-pvh.o 
+	$(AR) -rc lib/libc_external.a out/fts.o out/obstack.o out/obstack_printf.o out/stacktraverse.o out/execinfo.o out/argp-test.o out/argp-ba.o out/argp-eexst.o out/argp-fmtstream.o out/argp-help.o out/argp-parse.o out/argp-pv.o out/argp-pvh.o
 	$(RANLIB) lib/libc_external.a
 
 install-basedir: 
